@@ -27,7 +27,7 @@ crate from a branch tagged with the version `${PV}`:
 inherit cargo
 
 SUMMARY = "GPIO Utilities"
-HOMEPAGE = "git://github.com/rust-embedded/gpio-utils"
+HOMEPAGE = "git://github.com/rust-embedded/gpio-utils;branch=master;protocol=https"
 LICENSE = "MIT"
 
 SRC_URI = "https://github.com/rust-embedded/gpio-utils.git;tag=${PV}"
